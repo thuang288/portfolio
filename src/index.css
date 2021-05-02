@@ -1,0 +1,27 @@
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.cursive {
+  font-size: "Open Sans", cursive;
+  font-weight: 700;
+  text-align: center;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.home-name {
+  font-size: 150px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid;
+}
+
+.border {
+  border: 1px solid;
+}
